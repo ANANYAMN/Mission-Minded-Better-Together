@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(238, 71, 0, 0.7),rgba(230, 84, 0, 0.7)),url('');
+    margin-left: auto;
+    margin-right: auto;
+    /*position: fixed;*/
+}
+.headercontainer img{
+    width: 100%;
+    margin-top: -1px;
+    padding: 2px;
+    height:12vh;
+    background-color: #ffffff;
+    
+    
+
+}
+
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    border-bottom: 1px solid rgb(255, 194, 178);
+    transition: 1s;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-family:Sorts Mill Goudy;
+    margin: 24px 22px;
+    font-size: 121px;
+
+}
+
+p{
+    color: blanchedalmond;
+    font-family: Lora ;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin: 10px 1rem;
+    padding: 15px 0;
+}
+
+.mainContainer img{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    align-items: center;
+
+    
+    
+
+}
+
+
+
+
+.mainContainer h1{
+    color: rgb(255, 0, 0);
+    font-family:Sorts Mill Goudy;
+    margin: 24px 22px;
+    font-size: 121px;
+
+}
+
+.mainContainer p{
+    color: pink;
+    font-family: Lora ;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 0;
+}
+
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 70vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('BG.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.mainContainer p{
+    font-family: Copperplate Gothic;
+    font-size: 38px;
+}

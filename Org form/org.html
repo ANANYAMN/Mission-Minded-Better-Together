@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Organization Form</title>
+        <link rel="stylesheet" href="org.css">
+    </head>
+    <body>
+        <div class="login">
+            <img src="Background.jpg" class="login">
+            <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="organizations()">Organization</button>
+                <button type="button" class="toggle-btn" onclick="contributions()">Contribution</button>
+                <!--<button type="button" class="toggle-btn" onclick="login()"></button>-->
+            </div>
+            <!--Organizations-->
+            <form id="organizations" class="input-group">
+               
+                <input type="text" class="input-field" placeholder="Name of Organization" required>
+                <input type="text" class="input-field" placeholder="Organization ID" required>
+                <input type="text" class="input-field" placeholder="Description" required>
+                <input type="text" class="input-field" placeholder="Address" required>
+                <input type="text" class="input-field" placeholder="Phone Number" required>
+                <input type="text" class="input-field" placeholder="Mode of Payment" required>
+                <input type="checkbox" class="check-box"><span>Make sure provided details are legit</span>
+                <button type="submit" class="submit-btn">Add Organization</button>
+            </form>
+            <!--Contributions-->
+            <form id="contributions" class="input-group">
+                <input type="text" class="input-field" placeholder="Organization ID" required>
+                <input type="text" class="input-field" placeholder="Organization Name" required>
+                 <input type="text" class="input-field" placeholder="Cause for donation" required>
+                 <input type="text" class="input-field" placeholder="Total Amount required" required>
+                  <input type="text" class="input-field" placeholder="Minimum amount for Donation" required>
+                
+                <input type="checkbox" class="check-box"><span>100% legit information</span>
+                <button type="submit" class="submit-btn">Add Fund Raiser</button>
+            </form>
+           
+        </div>
+    </div>
+
+    <script>
+        var x =document.getElementById("organizations");
+        var y =document.getElementById("contributions");
+        var z =document.getElementById("btn");
+        function contributions(){
+            x.style.left="400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+
+        function organizations(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+        
+    </body>
+</html>
